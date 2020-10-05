@@ -4,9 +4,7 @@
 
 ### Getting Started
 
-> For **learning purposes**, ***recreate*** this repository on Github for yourself!
-
-#### 1. To **start**, set up a project ***Locally*** or on ***Deepnote***. Take the time to have a look at our ***[Project Setup Templates for Python (Tutorial)](https://github.com/sportsdatasolutions/python_project_template)***. If you already have Local or Deepnote ***templates*** set up on Github, be sure to use them! Otherwise, do something like...
+> For **learning purposes**, ***recreate*** this repository on Github for yourself! To **start**, set up a project ***Locally*** or on ***Deepnote***. Take the time to have a look at our ***[Project Setup Templates for Python (Tutorial)](https://github.com/sportsdatasolutions/python_project_template)***. If you already have Local or Deepnote ***templates*** set up on Github, be sure to use them! Otherwise, do something like...
 
 ```markdown
 ## Local
@@ -26,11 +24,9 @@ $ git clone git@github.com:username/aws_s3_python.git && cd aws_s3_python
 #### 4. Drag all files/folders into root of Deepnote Project, including .git, and delete empty folder
 ```
 
-#### 2. Continue to follow steps below to set up your projects package (dependency) management. We'll specifically be using ```pipenv```. Note [this guide](https://realpython.com/pipenv-guide/) if it's your first time using ```pipenv```.
-
 #### ```Dependencies```
 
-> If you have your own environment **with ```pipenv``` setup**, simply see [Pipfile](./Pipfile) and install required packages. Otherwise, install ```pipenv``` first e.g.
+> If you have your own environment **with ```pipenv``` setup**, simply see [Pipfile](./Pipfile) and install required packages. Note [this guide](https://realpython.com/pipenv-guide/) if it's your first time using ```pipenv``` and make sure you install the package with ```pip``` first e.g.
 
 ```markdown
 ## Local
@@ -73,7 +69,7 @@ pandas = "*"
 s3fs = "*"
 ```
 
-#### ```AWS S3```
+#### ```AWS S3 Setup```
 
 > Next up S3! Simple File Storage, at it's simplest. 
 
@@ -85,7 +81,7 @@ s3fs = "*"
 
 **Note**: Place it in a ***region*** close to you, e.g. ```eu-west-2```.
 
-#### ```S3 Integration```
+#### ```AWS S3 Integration```
 
 > Follow the steps below to integrate S3 into your respective environment. Note that Deepnote users, you can implement either way! If you want to design your notebook to also run locally, follow the stepts to integrate S3 locally.
 
